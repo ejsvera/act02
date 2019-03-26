@@ -10,6 +10,7 @@ namespace act02
     {
         static void Main(string[] args)
         {
+            // test
         }
     }
 }
