@@ -8,28 +8,26 @@ namespace act02
 {
     class Empleado : Persona
     {
-        internal Jefe Jefe
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
+        private string email;
+        private Jefe _jefe;
+        private Departamento _departamento;
 
-            set
-            {
-            }
+        public string Email
+        {
+            get { return email; }
+            set { email = value; }
         }
 
-        internal Departamento Departamento
+        public Jefe Jefe
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
+            get { return _jefe;}
+            set { _jefe = value; }
+        }
 
-            set
-            {
-            }
+        public Departamento Departamento
+        {
+            get { return _departamento; }
+            set { _departamento = value;}
         }
     }
 }
