@@ -29,5 +29,25 @@ namespace act02
             get { return _departamento; }
             set { _departamento = value;}
         }
+
+        public void Mostrar()
+        {
+            Console.WriteLine("Id        : " + Id);
+            Console.WriteLine("Nombre    : " + Nombre);
+            Console.WriteLine("Direccion : " + Direccion);
+            Console.WriteLine("Telefono  : " + Fono);
+
+            Console.WriteLine("Email     : " + email);
+
+            Console.WriteLine("Jefe Id        : " + _jefe.Id);
+            Console.WriteLine("Jefe Nombre    : " + _jefe.Nombre);
+            Console.WriteLine("Jefe Direccion : " + _jefe.Direccion);
+            Console.WriteLine("Jefe Telefono  : " + _jefe.Fono);
+
+            Console.WriteLine("Departamento Id     : " + _departamento.Id);
+            Console.WriteLine("Departamento Nombre : " + _departamento.Nombre);
+
+            Console.WriteLine("---------------------------------------------------------------");
+        }
     }
 }

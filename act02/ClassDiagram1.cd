@@ -24,7 +24,7 @@
   <Class Name="act02.Empleado">
     <Position X="6.5" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAkAAAAAAAAQAAAAAAAAAAAAAIABAA=</HashCode>
+      <HashCode>AAAAAAAAACQAAAAkAAAAAAAAQAAAAAAAAAAAAAIABAA=</HashCode>
       <FileName>Empleado.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
